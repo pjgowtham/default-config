@@ -61,13 +61,15 @@
             "autoCompleteFields":["familyName", "caste"],
             "defaultIdentifierPrefix": "GAN",
             "defaultVisitType": "OPD",
+            "dobMandatory": true,
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
+            "showEnterID":false,
             "showMiddleName": true,
             "showLastName": true,
             "isLastNameMandatory": true,
             "patientNameDisplayOrder": ["firstName", "middleName", "lastName"],
             "showSaveConfirmDialog": false,
-            "showBirthTime": true,
+            "showBirthTime": false,
             "showCasteSameAsLastNameCheckbox": false,
             "printOptions": [
                 {
