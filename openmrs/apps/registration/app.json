@@ -40,6 +40,11 @@
                 },
                 "hidden": {
                     "attributes": [
+                        "distanceFromCenter",
+                        "isUrban",
+                        "cluster",
+                        "RationCard",
+                        "familyIncome",
                         "primaryContact"
                     ]
                 },
