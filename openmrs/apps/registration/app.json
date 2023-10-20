@@ -71,7 +71,7 @@
             "mandatoryPersonAttributes" : ["primaryContact"],
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
             "showEnterID":false,
-            "showMiddleName": true,
+            "showMiddleName": false,
             "showLastName": true,
             "isLastNameMandatory": true,
             "patientNameDisplayOrder": ["firstName", "middleName", "lastName"],
