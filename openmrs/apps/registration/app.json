@@ -63,7 +63,7 @@
             },
 
             "autoCompleteFields":["familyName", "caste"],
-            "defaultIdentifierPrefix": "GAN",
+            "defaultIdentifierPrefix": "ORT",
             "defaultVisitType": "OPD",
             "dobMandatory": true,
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
