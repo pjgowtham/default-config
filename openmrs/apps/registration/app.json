@@ -123,16 +123,6 @@
                 "address1" : {"pattern" : "[a-zA-Z0-9\\s]{2,}", "errorMessage" : "Should contain at least 2 characters"}
             },
             "patientSearch": {
-                "address": {
-                    "label": "Rural Ward",
-                    "placeholder": "Enter ward",
-                    "field": "address2"
-                },
-                "customAttributes": {
-                    "label": "रुग्णाचे नाव",
-                    "placeholder": "रुग्णाचे नाव",
-                    "fields": ["givenNameLocal", "middleNameLocal", "familyNameLocal"]
-                },
                 "customAttributes": {
                     "label": "Phone Number",
                     "placeholder": "+91",
