@@ -60,11 +60,11 @@
                 "showAddressFieldsTopDown": false,
                 "strictAutocompleteFromLevel": "stateProvince"
             },
+            "prepopulateFields" : ["State", "Village"],
             "relationshipTypeMap": {
                 "Doctor":"provider",
                 "Parent":"patient"
             },
-
             "autoCompleteFields":["familyName", "caste"],
             "defaultIdentifierPrefix": "ORT",
             "defaultVisitType": "OPD",
