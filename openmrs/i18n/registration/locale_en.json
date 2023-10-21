@@ -15,7 +15,7 @@
   "REGISTRATION_CASTE_TEXT_ERROR_KEY":"Caste should contain only alphanumeric characters",
   "REGISTRATION_BRING_CARD_TEXT_KEY":"It is quite important to bring the card to the hospital.",
   "REGISTRATION_TAKE_MEDICINES_TEXT_KEY": "Take medicines according to instructions of the doctor.",
-  "REGISTRATION_TIMINGS_TEXT_KEY":"Registration Timings are from 9:00 am to 1:00 pm.",
+  "REGISTRATION_TIMINGS_TEXT_KEY":"Registration Timings are from 9:00 am to 1:00 pm, 5.30pm to 8pm.",
   "REGISTRATION_OPD_DAYS_TEXT_KEY" : "All days are working days except Friday/Sunday Evenings.",
   "REGISTRATION_SUNDAYS_HOLIDAY_TEXT_KEY": "Friday/Sunday evenings are holidays.",
   "REGISTRATION_SMOKING_INJURIOUS_TEXT_KEY" : "Smoking, Tobacco chewing can cause cancer, heart diseases and ASTHMA.",
