@@ -31,6 +31,34 @@
         "order": 1,
         "requiredPrivilege": "View Patients"
     },
+    "vitals":{
+        "id": "bahmni.registration.conceptSetGroup.vitalSigns",
+        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
+        "type": "config",
+        "extensionParams": {
+            "conceptName": "Vitals",
+            "translationKey": "Vital Signs",
+            "conceptNames": ["Blood Pressure", "Pulse Data", "Temperature Data", "RR Data", "SPO2 Data"],
+            "required": false,
+            "showLatest": true
+        },
+        "order": 1,
+        "requiredPrivilege": "Edit Visits"
+    },
+    "cbgsugars":{
+        "id": "bahmni.registration.conceptSetGroup.cbgsugars",
+        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
+        "type": "config",
+        "extensionParams": {
+            "conceptName": "CBG",
+            "translationKey": "Blood Sugars",
+            "conceptNames": ["Blood Sugar Random", "Blood Sugar Fasting", "Blood Sugar P.P"],
+            "required": false,
+            "showLatest": true
+        },
+        "order": 1,
+        "requiredPrivilege": "Edit Visits"
+    },
     "nutritionalValues":{
         "id": "bahmni.registration.conceptSetGroup.nutritionalLevels",
         "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
