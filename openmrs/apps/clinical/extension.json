@@ -142,17 +142,6 @@
     "order": 5,
     "requiredPrivilege": "app:clinical"
   },
-  "bahmniClinicalConceptSetGroupObservationsHistory": {
-    "id": "bahmni.clinical.conceptSetGroup.observations.history",
-    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
-    "type": "config",
-    "extensionParams": {
-      "conceptName": "History and Examination",
-      "default": true
-    },
-    "order": 1,
-    "requiredPrivilege": "app:clinical:history"
-  },
   "bahmniClinicalConceptSetGroupObservationsVitals": {
     "id": "bahmni.clinical.conceptSetGroup.observations.vitals",
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
@@ -161,8 +150,52 @@
       "default": true,
       "conceptName": "Vitals"
     },
-    "order": 2,
+    "order": 1,
     "requiredPrivilege": "app:clinical"
+  },
+  "bahmniClinicalConceptSetGroupObservationsHistory": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "History and Examination",
+      "default": true
+    },
+    "order": 2,
+    "requiredPrivilege": "app:clinical:history"
+  },
+  "bahmniClinicalConceptSetGroupObservationsOrthopaedics": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "Orthopaedic Examination",
+      "default": true
+    },
+    "order": 3,
+    "requiredPrivilege": "app:clinical:history"
+  },
+  "bahmniClinicalConceptSetGroupObservationsDiabetesIntake": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "Diabetes, Intake",
+      "default": true
+    },
+    "order": 4,
+    "requiredPrivilege": "app:clinical:history"
+  },
+  "bahmniClinicalConceptSetGroupObservationsDiabetesProgress": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "Diabetes, Progress",
+      "default": true
+    },
+    "order": 5,
+    "requiredPrivilege": "app:clinical:history"
   },
   "bahmniClinicalConceptSetGroupObservationsSecondVitals": {
     "id": "bahmni.clinical.conceptSetGroup.observations.secondVitals",
