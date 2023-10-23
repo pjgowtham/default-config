@@ -450,6 +450,7 @@
     },
     "trends":{  
         "translationKey":"DASHBOARD_TAB_TRENDS_KEY",
+        "displayByDefault":true,
         "maxRecentlyViewedPatients":10,
         "sections":{  
             "patientInformation":{  
@@ -576,6 +577,7 @@
     },
     "patientSummary":{  
         "translationKey":"DASHBOARD_TAB_PATIENT_SUMMARY_KEY",
+        "displayByDefault":true,
         "maxRecentlyViewedPatients":10,
         "sections":{  
             "Bacteriology Concept Set":{  
