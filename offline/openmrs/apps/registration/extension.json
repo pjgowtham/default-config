@@ -38,7 +38,7 @@
         "extensionParams": {
             "conceptName": "Nutritional Values",
             "translationKey": "NUTRITIONAL_VALUES_LOCALE_KEY",
-            "conceptNames": ["HEIGHT", "WEIGHT", "BMI Data", "BMI Status Data"],
+            "conceptNames": ["HEIGHT", "WEIGHT", "BMI Data", "BMI Status Data", "Hip Circumference", "Waist Circumference", "Waist/Hip Ratio"],
             "required":true,
             "showLatest": true
         },
@@ -56,5 +56,5 @@
         },
         "order": 2,
         "requiredPrivilege": "Edit Visits"
-    }
+   }
 }

@@ -91,7 +91,7 @@
         "type": "forms",
         "extensionParams": {
             "formName": "Nutritional Values",
-            "conceptNames": ["Height", "Weight", "BMI Data", "BMI Status Data"],
+            "conceptNames": ["Height", "Weight", "BMI Data", "BMI Status Data", "Hip Circumference", "Waist Circumference", "Waist/Hip Ratio"],
             "required":true,
             "showLatest": true
         },

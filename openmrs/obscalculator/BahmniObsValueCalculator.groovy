@@ -220,7 +220,8 @@ public class BahmniObsValueCalculator implements ObsValueCalculator {
                 Concept concept = Context.getConceptService().getConceptByUuid(obs.getConcept().uuid);
                 if (concept.getName().name.equalsIgnoreCase("BMI Data") || concept.getName().name.equalsIgnoreCase("BMI") ||
                         concept.getName().name.equalsIgnoreCase("BMI ABNORMAL") || concept.getName().name.equalsIgnoreCase("BMI Status Data")
-                        || concept.getName().name.equalsIgnoreCase("BMI STATUS") || concept.getName().name.equalsIgnoreCase("BMI STATUS ABNORMAL")) {
+                        || concept.getName().name.equalsIgnoreCase("BMI STATUS") || concept.getName().name.equalsIgnoreCase("BMI STATUS ABNORMAL")
+                        || concept.getName().name.equalsIgnoreCase("Waist/Hip Ratio") || concept.getName().name.equalsIgnoreCase("Waist/Hip Ratio")) {
 
                     obs.voided = true;
                     obs.setVoidReason("Replaced with a new one because it was changed");
