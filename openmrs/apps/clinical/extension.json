@@ -139,19 +139,41 @@
       "conceptName": "History and Examination",
       "default": true
     },
-    "order": 1,
+    "order": 2,
     "requiredPrivilege": "app:clinical:history"
   },
-  "bahmniClinicalConceptSetGroupObservationsVitals": {
-    "id": "bahmni.clinical.conceptSetGroup.observations.vitals",
+  "bahmniClinicalConceptSetGroupObservationsOrthopaedics": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
-      "default": true,
-      "conceptName": "Vitals"
+      "conceptName": "Orthopaedic Examination",
+      "default": true
     },
-    "order": 2,
-    "requiredPrivilege": "app:clinical"
+    "order": 3,
+    "requiredPrivilege": "app:clinical:history"
+  },
+  "bahmniClinicalConceptSetGroupObservationsDiabetesIntake": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "Diabetes, Intake",
+      "default": true
+    },
+    "order": 4,
+    "requiredPrivilege": "app:clinical:history"
+  },
+  "bahmniClinicalConceptSetGroupObservationsDiabetesProgress": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "conceptName": "Diabetes, Progress",
+      "default": true
+    },
+    "order": 5,
+    "requiredPrivilege": "app:clinical:history"
   },
   "bahmniClinicalConceptSetGroupObservationsSecondVitals": {
     "id": "bahmni.clinical.conceptSetGroup.observations.secondVitals",
@@ -223,16 +245,5 @@
     "icon": "icon-user-md",
     "order": 6,
     "requiredPrivilege": "app:clinical:ordersTab"
-  },
-  "bahmniClinicalConsultationBacteriology": {
-    "id": "bahmni.clinical.consultation.bacteriology",
-    "extensionPointId": "org.bahmni.clinical.consultation.board",
-    "type": "link",
-    "label": "Bacteriology",
-    "translationKey":"BACTERIOLOGY_BOARD_LABEL_KEY",
-    "url": "bacteriology",
-    "icon": "icon-user-md",
-    "order": 7,
-    "requiredPrivilege": "app:clinical:bacteriologyTab"
   }
 }
