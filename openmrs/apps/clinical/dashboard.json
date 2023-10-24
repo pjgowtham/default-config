@@ -9,13 +9,14 @@
                 "isObservation":true,
                 "displayType":"Full-Page",
                 "dashboardConfig":{  
-                    "showGroupDateTime":false,
+                    "showGroupDateTime":true,
                     "conceptNames":[  
                         "Chief Complaint Data",
                         "Examination Notes",
                         "Smoking History",
                         "Clief COmplaint Notes",
-                        "Blood Pressure"
+                        "Blood Pressure",
+                        "CBG"
                     ]
                 },
                 "displayOrder":6,
