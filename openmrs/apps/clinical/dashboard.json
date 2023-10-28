@@ -48,6 +48,30 @@
                 "displayOrder":6,
                 "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY"
             },
+            "treatments":{  
+                "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
+                "type":"treatment",
+                "displayOrder":3,
+                "dashboardConfig":{  
+                    "showFlowSheet":true,
+                    "showListView":true,
+                    "showRoute":false,
+                    "showDrugForm":true,
+                    "numberOfVisits":1,
+                    "showOtherActive":true,
+                    "showDetailsButton":true
+                },
+                "expandedViewConfig":{  
+                    "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
+                    "showFlowSheet":true,
+                    "showListView":true,
+                    "showRoute":false,
+                    "showDrugForm":true,
+                    "numberOfVisits":10,
+                    "showOtherActive":true,
+                    "showDetailsButton":true
+                }
+            },
             "drugOther":{  
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"drugOrderDetails",
