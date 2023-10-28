@@ -9,7 +9,15 @@
       "inputOptionsConfig": {
         "defaultDurationUnit": "Day(s)",
         "hideOrderSet" : false,
-        "defaultInstructions": "As directed",
+        "defaultInstructions": "After meals",
+        "dosingInstructions": [
+          "½ hour before meals",
+          "Before meals",
+          "With meals",
+          "After meals",
+          "15 min before bedtime",
+          "At bedtime"
+        ],        
         "frequencyDefaultDurationUnitsMap": [
           {
             "minFrequency": "1/7",
