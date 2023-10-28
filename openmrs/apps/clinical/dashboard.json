@@ -45,13 +45,13 @@
                         "CBG"
                     ]
                 },
-                "displayOrder":6,
+                "displayOrder":3,
                 "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY"
             },
             "treatments":{  
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"treatment",
-                "displayOrder":3,
+                "displayOrder":4,
                 "dashboardConfig":{  
                     "showFlowSheet":true,
                     "showListView":true,
@@ -77,7 +77,7 @@
                 "type":"drugOrderDetails",
                 "displayType":"Full-Page",
                 "showDetailsButton":true,
-                "displayOrder":24,
+                "displayOrder":5,
                 "dashboardConfig":{  
                     "showOnlyActive":true,
                     "drugConceptSet":"All Other Drugs"
@@ -87,6 +87,7 @@
                 "displayType":"Full-Page",
                 "title":"Chronic Treatment Chart",
                 "type":"chronicTreatmentChart",
+                "displayOrder":6,
                 "dashboardConfig":{  
                     "drugs":[  
 
