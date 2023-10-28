@@ -4,6 +4,32 @@
         "displayByDefault":true,
         "maxRecentlyViewedPatients":10,
         "sections":{
+            "diagnosis":{
+                "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
+                "type":"diagnosis",
+                "showCertainty":true,
+                "showOrder":true,
+                "showDetailsButton":true,
+                "displayOrder":1
+            },
+            "Observations":{
+                "type":"Observations",
+                "isObservation":true,
+                "displayType":"Half-Page",
+                "dashboardConfig":{  
+                    "showGroupDateTime":true,
+                    "scope": "latest",
+                    "conceptNames":[  
+                        "Systolic Data",
+                        "Diastolic Data",
+                        "Blood Sugar Random",
+                        "Blood Sugar Fasting",
+                        "Blood Sugar P.P"
+                    ]
+                },
+                "displayOrder":2,
+                "translationKey":"OBSERVATIONS"
+            },
             "HistoryAndExamination":{  
                 "type":"historyAndExamination",
                 "isObservation":true,
