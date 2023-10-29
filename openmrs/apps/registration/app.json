@@ -44,7 +44,10 @@
                         "isUrban",
                         "cluster",
                         "RationCard",
-                        "familyIncome"
+                        "familyIncome",
+                        "landHolding",
+                        "class",
+                        "caste"
                     ]
                 },
                 "defaults":  {
