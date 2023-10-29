@@ -35,7 +35,6 @@
                         "RationCard",
                         "familyIncome",
                         "debt",
-                        "cluster",
                         "email"
                     ]
                 },
