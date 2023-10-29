@@ -44,13 +44,13 @@
                         "isUrban",
                         "cluster",
                         "RationCard",
-                        "familyIncome",
-                        "primaryContact"
+                        "familyIncome"
                     ]
                 },
                 "defaults":  {
                     "class": "General",
-                    "landHolding": 2
+                    "landHolding": 2,
+                    "primaryContact": "+91"
                 }
             },
             "addressHierarchy": {
@@ -66,6 +66,7 @@
             "defaultIdentifierPrefix": "ORT",
             "defaultVisitType": "OPD",
             "dobMandatory": true,
+            "mandatoryPersonAttributes" : ["primaryContact"],
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
             "showEnterID":false,
             "showMiddleName": true,
@@ -128,6 +129,11 @@
                     "label": "रुग्णाचे नाव",
                     "placeholder": "रुग्णाचे नाव",
                     "fields": ["givenNameLocal", "middleNameLocal", "familyNameLocal"]
+                },
+                "customAttributes": {
+                    "label": "Phone Number",
+                    "placeholder": "+91",
+                    "fields": ["primaryContact","secondaryContact"]
                 }
             }
         }
