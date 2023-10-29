@@ -36,13 +36,15 @@
                 "dashboardConfig":{  
                     "showDetailsButton":true,
                     "conceptNames":[  
-                        "Vitals"
+                        "Vitals",
+                        "CBG"
                     ],
                     "numberOfVisits":2
                 },
                 "expandedViewConfig":{  
                     "conceptNames":[  
-                        "Vitals"
+                        "Vitals",
+                        "CBG"
                     ],
                     "numberOfVisits":2,
                     "showDetailsButton":true,
