@@ -54,12 +54,12 @@
   "DISCHARGE_SUMMARY_TREATMENTS_KEY": "Treatments",
 
 
-  "OBSERVATIONS_BOARD_LABEL_KEY":"Observations",
+  "OBSERVATIONS_BOARD_LABEL_KEY":"History & Examination",
   "MEDICATIONS_BOARD_LABEL_KEY":"Medications",
-  "ORDERS_BOARD_LABEL_KEY":"Orders",
+  "ORDERS_BOARD_LABEL_KEY":"Investigations",
   "BACTERIOLOGY_BOARD_LABEL_KEY":"Bacteriology",
-  "CONSULTATION_BOARD_LABEL_KEY":"Consultation",
-  "DISPOSITION_BOARD_LABEL_KEY":"Disposition",
+  "CONSULTATION_BOARD_LABEL_KEY":"Consultation Pad",
+  "DISPOSITION_BOARD_LABEL_KEY":"Admit Patient",
   "DIAGNOSIS_BOARD_LABEL_KEY":"Diagnoses",
 
   "CLINICAL_ORDER_RADIOLOGY_NEED_PRINT": "Need Print for this order.",
