@@ -48,7 +48,12 @@
                 "displayOrder":3,
                 "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY"
             },
-            "treatments":{  
+            "treatments":{
+                "prescriptionPrint": {
+                    "title": "Jawahar Hospital",
+                    "header": "Prescriptions",
+                    "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/jawahar_hospital-icon.png"
+                },
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"treatment",
                 "displayOrder":4,
@@ -70,17 +75,6 @@
                     "numberOfVisits":10,
                     "showOtherActive":true,
                     "showDetailsButton":true
-                }
-            },
-            "drugOther":{  
-                "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
-                "type":"drugOrderDetails",
-                "displayType":"Full-Page",
-                "showDetailsButton":true,
-                "displayOrder":5,
-                "dashboardConfig":{  
-                    "showOnlyActive":true,
-                    "drugConceptSet":"All Other Drugs"
                 }
             },
             "Chronic Treatment Chart":{  
