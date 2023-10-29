@@ -64,7 +64,7 @@
             },
             "historyAndExaminations":{  
                 "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY",
-                "type":"vitals",
+                "type":"observations",
                 "isObservation":true,
                 "displayOrder":4,
                 "dashboardConfig":{  
