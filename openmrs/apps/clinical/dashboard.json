@@ -141,7 +141,8 @@
                 "dashboardConfig":{  
                     "conceptNames":[
                         "BMI Data",
-                        "BMI Status Data"
+                        "BMI Status Data",
+                        "Waist/Hip Ratio"
                     ],
                     "showDetailsButton":true,
                     "numberOfVisits":2
@@ -149,7 +150,8 @@
                 "expandedViewConfig":{  
                     "conceptNames":[
                         "BMI",
-                        "BMI STATUS"
+                        "BMI STATUS",
+                        "Waist/Hip Ratio"
                     ],
                     "numberOfVisits":2,
                     "scope":"latest",
