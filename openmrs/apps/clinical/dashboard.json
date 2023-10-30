@@ -87,7 +87,12 @@
                     }
                 }
             },
-            "treatments":{  
+            "treatments":{
+                "prescriptionPrint": {
+                    "title": "Jawahar Hospital",
+                    "header": "Prescriptions",
+                    "logo": "../images/jawahar_hospital-icon.png"
+                },
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
                 "type":"treatment",
                 "displayOrder":5,
