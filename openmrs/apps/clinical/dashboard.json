@@ -353,5 +353,55 @@
                 }
             }
         }
+    },
+    "dentalSummary":{  
+        "translationKey":"Dental Summary",
+        "displayByDefault":true,
+        "maxRecentlyViewedPatients":10,
+        "sections":{
+            "diagnosis":{
+                "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
+                "type":"diagnosis",
+                "showCertainty":true,
+                "showOrder":true,
+                "showDetailsButton":true,
+                "displayOrder":0
+            },
+            "conditions": {
+                "translationKey":"CONDITION_LIST_DISPLAY_CONTROL_TITLE",
+                "type": "conditionsList",
+                "displayOrder": 1
+            },
+            "HistoryAndExamination":{  
+                "type":"historyAndExamination",
+                "isObservation":true,
+                "displayType":"Full-Page",
+                "dashboardConfig":{  
+                    "showGroupDateTime":true,
+                    "conceptNames":[  
+                        "Dental Examination"
+                    ]
+                },
+                "displayOrder":2,
+                "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY"
+            },
+            "drugOther":{  
+                "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
+                "type":"drugOrderDetails",
+                "displayType":"Full-Page",
+                "showDetailsButton":true,
+                "displayOrder":3,
+                "dashboardConfig":{  
+                    "showOnlyActive":true,
+                    "drugConceptSet":"All Other Drugs"
+                }
+            },
+            "radiology":{  
+                "translationKey":"DASHBOARD_TITLE_RADIOLOGY_KEY",
+                "type":"radiology",
+                "showDetailsButton":true,
+                "displayOrder":4
+            }
+        }
     }
 }
