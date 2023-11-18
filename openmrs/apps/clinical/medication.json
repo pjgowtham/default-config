@@ -7,9 +7,12 @@
         "calculateDoseOnlyOnCurrentVisitValues": false
       },
       "inputOptionsConfig": {
+        "allowOnlyCodedDrugs": true,
         "defaultDurationUnit": "Day(s)",
         "hideOrderSet" : false,
+        "isDropDown": false,
         "defaultInstructions": "After meals",
+        "dosePlaceHolder": "1",
         "dosingInstructions": [
           "½ hour before meals",
           "Before meals",
@@ -17,7 +20,13 @@
           "After meals",
           "15 min before bedtime",
           "At bedtime"
-        ],        
+        ],
+        "doseUnits": [
+          "Tablet(s)",
+          "Capsule(s)",
+          "ml",
+          "Unit(s)"
+        ],
         "frequencyDefaultDurationUnitsMap": [
           {
             "minFrequency": "1/7",
@@ -107,7 +116,16 @@
             "doseUnits": "Tablet(s)",
             "route": "Oral"
           }
-        }
+        },
+      "routes": [
+        "Intramuscular",
+        "Topical",
+        "Sub Cutaneous",
+        "Oral",
+        "Intravenous",
+        "Intralesional",
+        "Intra-articular"
+      ]
       }
     }
   }
