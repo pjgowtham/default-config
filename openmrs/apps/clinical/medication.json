@@ -53,6 +53,10 @@
             "doseUnits": "Capsule(s)",
             "route": "Oral"
           },
+          "Capsule(s)": {
+            "doseUnits": "Capsule(s)",
+            "route": "Oral"
+          },
           "Cream": {
             "route": "Topical"
           },
@@ -113,6 +117,10 @@
             "route": "Oral"
           },
           "Tablet": {
+            "doseUnits": "Tablet(s)",
+            "route": "Oral"
+          },
+          "Tablet(s)": {
             "doseUnits": "Tablet(s)",
             "route": "Oral"
           }
